@@ -11,7 +11,7 @@ export const config = {
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-   * ["oiQ4U54w0M8lp982cjCdiBoZnxsY"]
+   * USERS：["oiQ4U54w0M8lp982cjCdiBoZnxsY"]
    *  {
    *    // 想要发送的人的名字
    *    name: "老婆0",
@@ -27,33 +27,14 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "蓉蓉",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxO123O6Vsk2Yv0Kuf-ywIZ3VRMpuXhk",
+      id: "oiQ4U54w0M8lp982cjCdiBoZnxsY",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "zjVglIuC2Xo4CsraXWEio1iP7sZJ37IQEES9lD3sgc4yOU",
+      useTemplateId: "wcQHXegu9ifjFYn31i1Wjr8MC2wohOPGl3GHloni4kw",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
-    {
-      name: "老婆1", 
-      id: "ohxOO6VskYv20Kuf-ywIZVR3MpuXhk",
-      useTemplateId: "Wue80GrtY1nAia24tam-FDxZF9WNx39pwcBc0LMpANnu8",
-      openUrl: "https://baidu.com"
-    }, 
-    {
-      name: "老婆2",
-      id: "ohxOO6VskYv30Kuf-ywIZV3RMpuXhk",
-      useTemplateId: "zjVglIuCXo4CsraXW3Eio1iP7sZJ7IQEES9lDsgc4yOU",
-      openUrl: "https://weibo.com"
-    }, 
-    {
-      name: "老婆3", 
-      id: "ohxOO63VskYv0Kuf-ywIZV3RMpuXhk", 
-      useTemplateId: "Wue80GrtY1nA3ia4tam-FDxZF9WNx9pw3cBc0LMpANnu8",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-  ],
 
   /**
    * 回调消息 相关，主要用来展示发送是否成功/失败的数据
@@ -93,9 +74,8 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "蓉蓉", "year": "2005", "date": "06-18"},
-    {"type": "节日", "name": "在一起的第几天", "year": "2022", "date": "07-23"},
+    {"type": "节日", "name": "在一起的第", "year": "2022", "date": "07-23"},
     {"type": "生日", "name": "宝宝", "year": "2005", "date": "01-20"},
-    {"type": "节日", "name": "被爱", "year": "2022", "date": "07-23"},
   ],
 
   /**
