@@ -4,21 +4,21 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wx697dcac0a2480485",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "37617bc5f9c522fe1bd2637453a175db",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-   * [
+   * ["oiQ4U54w0M8lp982cjCdiBoZnxsY"]
    *  {
    *    // 想要发送的人的名字
    *    name: "老婆0",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    wcQHXegu9ifjFYn31i1Wjr8MC2wohOPGl3GHloni4kw",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   }, 
@@ -79,9 +79,9 @@ export const config = {
   /** 天气相关 */
 
   // 所在省份
-  PROVINCE: "广东",
+  PROVINCE: "湖北",
   // 所在城市
-  CITY: "惠州",
+  CITY: "武汉",
 
   /** 重要节日相关 */
 
@@ -92,10 +92,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "蓉蓉", "year": "2005", "date": "06-18"},
+    {"type": "节日", "name": "在一起的第几天", "year": "2022", "date": "07-23"},
+    {"type": "生日", "name": "宝宝", "year": "2005", "date": "01-20"},
+    {"type": "节日", "name": "被爱", "year": "2022", "date": "07-23"},
   ],
 
   /**
@@ -113,14 +113,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
+    {"keyword": "love_day", date: "2022-07-23"},
   ],
 
   /** 插槽 */
@@ -136,8 +129,8 @@ export const config = {
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
       "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+      "我好憨，你好美，可我还是很羡慕你，因为你有我",
+      "谢谢你，出现在我身边，谢谢你爱我",
     ]},
   ],
 
